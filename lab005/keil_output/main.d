@@ -1,0 +1,12 @@
+.\keil_output\main.o: main.c
+.\keil_output\main.o: ..\..\FreeRTOS\include\FreeRTOS.h
+.\keil_output\main.o: C:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\keil_output\main.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\keil_output\main.o: ..\..\FreeRTOS\include\projdefs.h
+.\keil_output\main.o: ..\lab005\FreeRTOSConfig.h
+.\keil_output\main.o: ..\..\FreeRTOS\include\portable.h
+.\keil_output\main.o: ..\..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+.\keil_output\main.o: ..\..\FreeRTOS\include\mpu_wrappers.h
+.\keil_output\main.o: ..\..\FreeRTOS\include\task.h
+.\keil_output\main.o: ..\..\FreeRTOS\include\list.h
+.\keil_output\main.o: ..\common\basic_io.h
