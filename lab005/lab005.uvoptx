@@ -81,21 +81,36 @@
       <Books>
         <Book>
           <Number>0</Number>
-          <Title>MCB1700 Schematics (MCB1700)</Title>
-          <Path>C:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.0.0\Documents\mcb1700-schematics.pdf</Path>
+          <Title>KoalaEVM Quick Start (Koala EVM)</Title>
+          <Path>C:\Keil_v5\ARM\PACK\Clarinox\Wireless\2.0.1\Docs\KoalaEVM_QuickStart.pdf</Path>
         </Book>
         <Book>
           <Number>1</Number>
-          <Title>User Manual (MCB1700)</Title>
-          <Path>C:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.0.0\Documents\mcb1700.chm</Path>
+          <Title>KoalaEVM Applications Manual (Koala EVM)</Title>
+          <Path>C:\Keil_v5\ARM\PACK\Clarinox\Wireless\2.0.1\Docs\KoalaEVM_SoftwareApplications.pdf</Path>
         </Book>
         <Book>
           <Number>2</Number>
-          <Title>MCB1700 Quick Start Guide (MCB1700)</Title>
-          <Path>C:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.0.0\Documents\mcb1700_quickstart.pdf</Path>
+          <Title>MCB1700 Schematics (MCB1700)</Title>
+          <Path>C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Documents\mcb1700-schematics.pdf</Path>
         </Book>
         <Book>
           <Number>3</Number>
+          <Title>User Manual (MCB1700)</Title>
+          <Path>C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Documents\mcb1700.chm</Path>
+        </Book>
+        <Book>
+          <Number>4</Number>
+          <Title>MCB1700 Quick Start Guide (MCB1700)</Title>
+          <Path>C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Documents\mcb1700_quickstart.pdf</Path>
+        </Book>
+        <Book>
+          <Number>5</Number>
+          <Title>KoalaEVM Web Page (Koala EVM)</Title>
+          <Path>http://www.clarinox.com/index.php?id=415</Path>
+        </Book>
+        <Book>
+          <Number>6</Number>
           <Title>MCB1700 Evaluation Board Web Page (MCB1700)</Title>
           <Path>http://www.keil.com/mcb1700/</Path>
         </Book>
@@ -162,11 +177,11 @@
         <THDelay>0</THDelay>
       </Tracepoint>
       <DebugFlag>
-        <trace>0</trace>
+        <trace>1</trace>
         <periodic>0</periodic>
-        <aLwin>0</aLwin>
+        <aLwin>1</aLwin>
         <aCover>0</aCover>
-        <aSer1>0</aSer1>
+        <aSer1>1</aSer1>
         <aSer2>0</aSer2>
         <aPa>0</aPa>
         <viewmode>1</viewmode>
@@ -178,8 +193,8 @@
         <AscS3>0</AscS3>
         <aSer3>0</aSer3>
         <eProf>0</eProf>
-        <aLa>0</aLa>
-        <aPa1>0</aPa1>
+        <aLa>1</aLa>
+        <aPa1>1</aPa1>
         <AscS4>0</AscS4>
         <aSer4>0</aSer4>
         <StkLoc>0</StkLoc>
@@ -195,7 +210,7 @@
 
   <Group>
     <GroupName>FreeRTOS</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -307,7 +322,7 @@
 
   <Group>
     <GroupName>demo</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -341,7 +356,7 @@
 
   <Group>
     <GroupName>system</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>

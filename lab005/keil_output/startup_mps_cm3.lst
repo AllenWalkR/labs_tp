@@ -367,10 +367,10 @@ ARM Macro Assembler    Page 6
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=.\keil_output\startup_mps_cm3.d -o.\keil_output\startup_mps_cm3.o 
--IE:\MyInsset\PTR\labs\labs\lab005\RTE -IC:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.0.
-0\Device\Include -IC:\Keil\ARM\CMSIS\Include --predefine="__MICROLIB SETA 1" --
-predefine="__UVISION_VERSION SETA 515" --predefine="LPC175x_6x SETA 1" --list=.
-\keil_output\startup_mps_cm3.lst startup_MPS_CM3.s
+-IC:\NXP\Labs\labs\lab005\RTE -IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Devi
+ce\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --predefi
+ne="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 516" --predefine="LP
+C175x_6x SETA 1" --list=.\keil_output\startup_mps_cm3.lst startup_MPS_CM3.s
 
 
 
@@ -874,4 +874,4 @@ Symbol: xPortSysTickHandler
       At line 74 in file startup_MPS_CM3.s
 Comment: xPortSysTickHandler used once
 4 symbols
-385 symbols in table
+386 symbols in table
